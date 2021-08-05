@@ -1,4 +1,10 @@
-# 4030-Project
+# 4030-Project - Mobile Computing
+
+## Degree Progress Tracker Anrdoid Application
+
+## Contributors
+- JakeLondon  (GitHub)
+- skemp01     (GitHub)
 
 **Currently Implemented**
 - Room Database to hold user entered informtation
