@@ -1,0 +1,287 @@
+{
+  "data": [
+    {
+      "title": "Programming",
+      "code": "CIS*1300",
+      "restrictions": [
+        {
+          "code": "CIS*1500"
+        }
+      ],
+      "prereq": [
+
+      ],
+      "description": "This course examines the applied and conceptual aspects of programming. Topics may include data and control structures, program design, problem solving and algorithm design, operating systems concepts, and fundamental programming skills. This course is intended for students who plan to take later CIS courses. If your degree does not require further CIS courses consider CIS*1500 Introduction to Programming.",
+      "credits": "0.50"
+    },
+    {
+      "title": "Discrete Structures in Computing I",
+      "code": "CIS*1910",
+      "restrictions": [
+
+      ],
+      "prereq": [
+
+      ],
+      "description": "This course is an introduction to discrete structures and formal methodologies used in computer science, including Boolean algebra, propositional logic, predicate logic, proof techniques, set theory, equivalence relations, order relations, and functions.",
+      "credits": "0.50"
+    },
+    {
+      "title": "Calculus I",
+      "code": "MATH*1200",
+      "restrictions": [
+        {
+          "code": "IPS*1500"
+        },
+        {
+          "code" : "MATH*1080"
+        }
+      ],
+      "prereq": [
+
+      ],
+      "description": "This is a theoretical course intended primarily for students who expect to pursue further studies in mathematics and its applications. Topics include inequalities and absolute value; compound angle formulas for trigonometric functions; limits and continuity using rigorous definitions; the derivative and derivative formulas (including derivatives of trigonometric, exponential and logarithmic functions); Fermat's theorem; Rolle's theorem; the mean-value theorem; applications of the derivative; Riemann sums; the definite integral; the fundamental theorem of calculus; applications of the definite integral; the mean value theorem for integrals.",
+      "credits": "0.50"
+    },
+    {
+      "title": "Discrete Structures in Computing II",
+      "code": "CIS*2910",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*1300"
+        },
+        {
+          "code": "CIS*1910"
+        }
+      ],
+      "description": "",
+      "credits": ""
+    },
+    {
+      "title": "Intermediate Programming",
+      "code": "CIS*2500",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*1300"
+        }
+      ],
+      "description": "In this course students learn to interpret a program specification and implement it as reliable code, as they gain experience with pointers, complex data types, important algorithms, intermediate tools and techniques in problem solving, programming, and program testing.",
+      "credits": "0.50"
+    },
+    {
+      "title": "Linear Algebra I",
+      "code": "MATH*1160",
+      "restrictions": [
+        {
+          "code": "MATH*2150"
+        },
+        {
+          "code": "MATH*2160"
+        },
+        {
+          "code": "ENGG*1500"
+        }
+      ],
+      "prereq": [
+
+      ],
+      "description": "This course provides an introduction to linear algebra in Euclidean space. Topics covered include: N-dimensional vectors, dot product, matrices and matrix operations, systems of linear equations and Gaussian elimination, linear independence, subspaces, basis and dimension, matrix inverse, matrix rank and determinant, eigenvalues, eigenvectors and diagonalization, orthogonalization and projections, linear transformations. Some fundamental proofs and applications of these topics will be included.",
+      "credits": "0.50"
+    },
+    {
+      "title": "Structure and Application of Microcomputers",
+      "code": "CIS*2030",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*1910"
+        },
+        {
+          "code": "CIS*2500"
+        }
+      ],
+      "description": "This course examines the components of a computer system, including memories, CPU, buses, and input/output subsystems and interface hardware. Programming of these systems is studied, including instruction sets, addressing modes, assembly/machine language programming, development of algorithms for data acquisition, display, and process control.",
+      "credits": "0.50"
+    },
+    {
+      "title": "Object Oriented Programming",
+      "code": "CIS*2430",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*2500"
+        }
+      ],
+      "description": "This course introduces the Object Oriented (OO) approach to programming and algorithm design. Topics will include the creation and use of objects from class libraries, user defined objects, inheritance, modularity, generic code, components, collections and containers, and an introduction to OO design methodologies.",
+      "credits": "0.50"
+    },
+    {
+      "title": "Data Structures",
+      "code": "CIS*2520",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*2500"
+        },
+        {
+          "code": "CIS*1910"
+        }
+      ],
+      "description": "This course is a study of basic data structures, such as lists, stacks, queues, trees, and tables. Topics which will be examined include abstract data types, sequential and linked representations, and an introduction to algorithm analysis; various traversal, search, insertion, removal, and sorting algorithms.",
+      "credits": "0.50"
+    },
+    {
+      "title": "Software Systems Development and Integration",
+      "code": "CIS*2750",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*2430"
+        },
+        {
+          "code": "CIS*2520"
+        }
+      ],
+      "description": "This course introduces techniques and tools used in the development of large software systems. Students learn methods for organizing and constructing modular systems, manipulating files, introductory interface design, and use of databases. Software tools for managing projects, database connectivity, configuration management, and system application programmer interfaces are also covered.",
+      "credits": "0.75"
+    },
+    {
+      "title": "Operating Systems I",
+      "code": "CIS*3110",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*2520"
+        },
+        {
+          "code": "CIS*2030"
+        }
+      ],
+      "description": "This course covers operating systems in theory and practice by focusing on the components in a system: scheduling, resource allocation, process management, multi-programming, multi-tasking, I/O control, file systems, and mechanisms for client-server computing using examples from contemporary operating systems.",
+      "credits": "0.50"
+    },
+    {
+      "title": "The Analysis and Design of Computer Algorithms",
+      "code": "CIS*3490",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*1910"
+        },
+        {
+          "code": "CIS*2520"
+        }
+      ],
+      "description": "The design and analysis of efficient computer algorithms are studied. Topics which will be studied include: standard methodologies, asymptotic behaviour, optimality, lower bounds, implementation considerations, graph algorithms, matrix computations (e.g. Strassen's method), NP-completeness.",
+      "credits": "0.50"
+    },
+    {
+      "title": "Theory of Computation",
+      "code": "CIS*3150",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*2750"
+        },
+        {
+          "code": "CIS*3490"
+        }
+      ],
+      "description": "This course explores the theory of computation including automata theory, Turing machines and their variants, formal languages, parsing, the Halting problem, undecidability, and NP-completeness.",
+      "credits": "0.50"
+    },
+    {
+      "title": "System Analysis and Design in Applications",
+      "code": "CIS*3750",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*2750"
+        }
+      ],
+      "description": "This course is an introduction to the issues and techniques encountered in the design and construction of software systems, focusing on the theory and models of software evolution. Topics include requirements and specifications, prototyping, design principles, object-oriented analysis and design, standards, integration, risk analysis, testing and debugging.",
+      "credits": "0.75"
+    },
+    {
+      "title": "Statistics I",
+      "code": "STAT*2040",
+      "restrictions": [
+        {
+          "code": "STAT*2060"
+        },
+        {
+          "code": "STAT*2080"
+        },
+        {
+          "code": "STAT*2120"
+        },
+        {
+          "code": "STAT*2230"
+        }
+      ],
+      "prereq": [
+        {
+          "code": "1 of 4U Calculus and Vectors, Advanced Functions and Calculus, OAC Calculus, MATH*1080"
+        }
+      ],
+      "description": "This course focuses on the practical methods of Statistics and the topics include: descriptive statistics; univariate models such as binomial, Poisson, uniform and normal; the central limit theorem; expected value; the t, F and chi-square models; point and interval estimation; hypothesis testing methods up to two-sample data; simple regression and correlation; introduction to analysis of variance. Assignments will deal with real data from the natural sciences and involve the use of statistical software for computing and visualization.",
+      "credits": "0.50"
+    },
+    {
+      "title": "Software Engineering",
+      "code": "CIS*3760",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*3750"
+        }
+      ],
+      "description": "This course is an examination of the software engineering process, the production of reliable systems and techniques for the design and development of complex software. Topics include object-oriented analysis, design and modeling, software architectures, software reviews, software quality, software engineering, ethics, maintenance and formal specifications.",
+      "credits": "0.75"
+    },
+    {
+      "title": "Compilers",
+      "code": "CIS*4650",
+      "restrictions": [
+
+      ],
+      "prereq": [
+        {
+          "code": "CIS*2030"
+        },
+        {
+          "code": "CIS*3110"
+        },
+        {
+          "code": "CIS*3150"
+        }
+      ],
+      "description": "This course is a detailed study of the compilation process. Topics include interpreters, overall design implementation of a compiler, techniques for parsing, building and manipulating intermediate representations of a program, implementation of important features, code generation and optimization.\n",
+      "credits": "0.50"
+    }
+  ]
+}
